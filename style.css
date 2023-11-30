@@ -1,0 +1,99 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
+header{
+    position: fixed;
+    left: 8.5%;
+    top: 0.5px;
+    background-color: white;
+    z-index: 1001;
+    width: 77.8%;
+}
+#elon-musk{
+    position: relative;
+    left: 45%;
+    margin-top: 40px;
+    height: 120px;
+    border-radius: 50%;
+}
+header h3{
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+.cash p{
+    position: relative;
+    bottom: 25px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: white;
+}
+.cash{
+    position: fixed;
+    left: 8.5%;
+    top: 250px;
+    width: 77.8%;
+    background-color: rgb(78, 233, 96);
+    height: 80px;
+    z-index: 1001;
+}
+.first-row{
+    display: flex;
+    justify-content: space-around;
+}
+.c11{
+    background-color: white;
+    width: 350px;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 100px;
+    height: 50px;
+}
+.img{
+    position: relative;
+    left: 50px;
+}
+.grid{
+    position: relative;
+    top: 350px;
+    left: 7%;
+    width: 1150px;
+}
+#names,p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+#img23{
+    position: relative;
+    height: 240px;
+}
+#img33{
+    height: 225px;
+    width: 230px;
+}
+#img34{
+    width: 240px;
+    height: 225px;
+}
+#img56,#img123,#img234,#img345,#img456{
+    width: 240px;
+    height: 225px;
+}
+footer{
+    position: relative;
+    top: 350px;
+    text-align: center;
+}
+h4{
+    font-size: 2rem;
+}
